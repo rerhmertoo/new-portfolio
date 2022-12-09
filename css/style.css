@@ -1,0 +1,373 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-image: url(./3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+label.logo{
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    margin: 25px;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: darksalmon;
+    transition: .5s;
+}
+
+.header-text{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.header2{
+    margin: 40px;
+    padding:0 30px;
+    padding-bottom: 50px;
+}
+.header2 h1{
+    opacity: 0.04;
+    font-size: 100px;
+}
+.header2 .overlap{
+   padding-bottom: 30px;
+   text-transform: uppercase;
+   margin-left: 140px;
+   position: relative;
+   bottom: 68px;
+   font-weight: bold;
+}
+.container2{
+    display: flex;
+    gap: 100px;
+}
+.computer{
+    height: 200px;
+    width: 50%;
+}
+.about p{
+    font-size: 20px;
+}
+button{
+    background-color: darkolivegreen;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    width: 20%;
+    border: 1px solid white;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .progress-bar{
+    width: 80%;
+    height: 20px;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.progress-bar-stripped{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    border: 2px solid black;
+}
+.progress-bar-stripped .html{
+    width: 90%;
+    height: 100%;
+    background-color: darkolivegreen;
+}    
+.progress-bar-stripped .css{
+    width: 80%;
+    height: 100%;
+    background-color: darkolivegreen;
+}
+.progress-bar-stripped .java-script{
+    width: 50%;
+    height: 100%;
+    background-color: darkolivegreen;
+}
+.progress-bar-stripped .bootstrap{
+    width: 20%;
+    height: 100%;
+    background-color: darkolivegreen;
+}
+.progress-bar-stripped .react{
+    width: 50%;
+    height: 100%;
+    background-color: darkolivegreen;
+}
+h3{
+    font-size: 80px;
+    opacity: 0.04;
+    padding-left: 400px;
+}
+.port{
+    color: black;
+    font-size: 20px;
+    padding-left: 550px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 55px;
+}
+.wrapper{
+    display: flex;
+}
+img{
+    width: 400px;
+    height: 300px;
+    padding-left: 150px;
+}
+.wrapper p{
+    text-align: right;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+.section button{
+    margin-left: 150px;
+    background-color: darkolivegreen;
+    width: 200px;
+    border: 2px solid black;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.section button:hover{
+    transition: .5s;
+    background-color: darksalmon;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
+.domain{
+    display: flex;
+    color: white;
+    padding-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+    gap: 100px;
+}
+.main h4{
+    margin-top: 30px;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+.main p{
+    font-size: 20px;
+    gap: 30px;
+}
+.row1{
+    margin-left: 100px;
+    margin-top: 83px;
+    list-style: none;
+}
+.row2{
+    margin-left: 100px;
+    margin-top: 83px;
+    list-style: none;
+}
+.icons{
+    margin-top: 83px; 
+}
+.icons i{
+    padding-right: 20px;
+}
+.last-col{
+    padding-left: 100px; 
+}
+.last-col button{
+    color: white;
+    background-color: darkolivegreen;
+    height: fit-content;
+    width: 150px;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+.last-col button:hover{
+    transition: .5s;
+    background-color: darksalmon;
+}
+.line{
+    width: 100%;
+    height: 2px; 
+    background-color: white;
+    margin-top: 180px;
+}
+.copy{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+@media(max-width:970px){
+    body{
+        width: 100%;
+    }
+    label.logo{
+        padding-left: 0px;
+    }
+    button {
+        width: 0px;
+    }
+    .header2{
+        margin: 0px;
+    }
+    .header2 h1{
+        font-size: 90px;
+    }
+    .header2 .overlap {
+        margin-left: 130px;
+        bottom: 60px;
+    }
+    .container2{
+        flex-direction: column;
+    }
+    .about p{
+        font-size: 15px;
+        line-height: 13px;
+    }
+    button{
+        padding: 10px;
+        width: 150px;
+    }
+    .port-design{
+        justify-content: center;
+    }
+    .header .fa-solid{
+        color: white;
+        margin-top: 25px;
+        margin-right: 20px;
+    }
+    .fa-bars:before, .fa-navicon:before {
+        content: "\f0c9";
+        font-size: x-large;
+    }
+    .fa-times:before, .fa-xmark:before {
+        content: "\f00d";
+        font-size: xx-large;
+        color: black;
+        padding-left: 5px;
+    }
+    h3{
+        font-size: 60px;
+        padding-left: 0px;
+    }
+    .port{
+        font-size: 15px;
+        padding-left: 100px;
+        bottom: 40px;
+    }
+    .wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        width: 300px;
+        height: 300px;
+        padding-left: 0;
+    }
+    .wrapper p{
+        text-align: center;
+    }
+    .section button{
+        margin-left: 0px;
+    }
+    .footer{
+        height: 100%;
+    }
+    .domain{
+        flex-direction: column;
+
+    }
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -400px;
+        background-color: whitesmoke;
+        width: 40%;
+        padding-left: 0px;
+    }
+    .nav-links ul li{
+        display: block;
+        text-align: center;
+    }
+    
+    .header {
+        background-image: url(./3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 50px;
+        margin-bottom: 80px;
+    }
+    .header-text{
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .computer{
+        height: 200px;
+        width: 100%;
+    }
+    .port-design{
+        align-items: center;
+    }
+    .domain{
+        gap: 0px;
+    }
+    .line{
+        margin-top: 0px;
+    }
+}
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
